@@ -1,41 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https: //fonts.googleapis.com/css2? família= Inter &family= Open+Sans & family= Poppins & display=swap"
-        rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https: //fonts.googleapis.com/css2? família= Inter &family= Open+Sans & family= Poppins & display=swap"
+      rel="stylesheet"
+    />
     <title>encriptador</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <main>
-        <header>
-            <img src="./image/Logo_Alura.png" alt="">
-        </header>
-        <section class="container">
-            <div class="cripto">
-                <textarea class="input-text" cols="40" rows="6" placeholder="Digite seu texto"></textarea>
-                <div class="btn">
-                    <h6>Apenas letras maiusculas e minusculas</h6>
-                    <button class="encriptar" onclick="btEncriptar()">
-                        Criptografar
-                    </button>
-                    <button class="desencriptar" onclick="btDesencriptar()">
-                        Descriptografar
-                    </button>
-                </div>
-            </div>
-            <div>
-                <textarea class="mensagem" id="input-mensage" cols="18" rows="10"></textarea>
-                <button class="botao" onclick="copy()">Copiar</button>
-            </div>
-            </div>
-        </section>
+      <header>
+        <img src="./image/Logo_Alura.png" alt="" />
+      </header>
+      <section class="container">
+        <div class="cripto">
+          <textarea
+            class="input-text"
+            cols="40"
+            rows="6"
+            placeholder="Digite seu texto"
+          ></textarea>
+          <div class="btn">
+            <h6>Apenas letras maiusculas e minusculas</h6>
+            <button class="encriptar" onclick="btEncriptar()">
+              Criptografar
+            </button>
+            <button class="desencriptar" onclick="btDesencriptar()">
+              Descriptografar
+            </button>
+          </div>
+        </div>
+        <div class="container-message">
+          <textarea
+            class="mensagem"
+            id="input-mensage"
+            cols="18"
+            rows="10"
+          ></textarea>
+          <button class="botao" onclick="copy()">Copiar</button>
+        </div>
+      </section>
     </main>
     <script src="/script.js"></script>
-</body>
-    
+  </body>
+</html>

@@ -1,85 +1,97 @@
-*{
-    font-family: "inter", sans-serif;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 150%;
+* {
+  font-family: "inter", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 150%;
 }
-body{
-    background-color: #E5E5E5;
-    margin: 40px;
+body {
+  background-color: #e5e5e5;
 }
-textarea{
-    background-color: #E5E5E5;
-    border: none;
-    resize: none;
+
+header {
+  margin-inline: 40px;
 }
-textarea:focus, input:focus {
-    box-shadow: 0 0 0 0;
-    outline: 0;
+
+.container {
+  display: flex;
+}
+textarea {
+  background-color: #e5e5e5;
+  border: none;
+  resize: none;
+}
+textarea:focus,
+input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
 }
 ::-webkit-input-placeholder {
-    color: #0A3871;
- }
-h6{
-    margin: 7px;
-    font-size: 16px;
-    margin-left: 25px;
+  color: #0a3871;
 }
-header{
-    margin-bottom: 0px;
+h6 {
+  margin: 7px;
+  font-size: 16px;
+  margin-left: 25px;
 }
-p{
-    font-size: 12px;
+p {
+  font-size: 12px;
 }
-.input-text{
-    font-size: 32px;
+.input-text {
+  font-size: 32px;
 }
-.encriptar, .desencriptar{
-    border: none;
-    background-color: darkblue;
-    color: white;
-    font-size: 16px;
-    padding: 20px;
-    border-radius: 24px;
-    width: 280px;
-    margin-left: 25px;
-    cursor: pointer;
+.encriptar,
+.desencriptar {
+  border: none;
+  background-color: darkblue;
+  color: white;
+  font-size: 16px;
+  padding: 20px;
+  border-radius: 24px;
+  width: 280px;
+  margin-left: 25px;
+  cursor: pointer;
 }
-.encriptar:hover{
-    background-color: rgb(0, 0, 90);
-    transition: 0.3s;
+.encriptar:hover {
+  background-color: rgb(0, 0, 90);
+  transition: 0.3s;
 }
-.desencriptar, .botao{
-    background-color: #E5E5E5;
-    color: #0A3871;
-    border: #0A3871 solid 1px;
-    font-weight: bold;
+.desencriptar,
+.botao {
+  background-color: #e5e5e5;
+  color: #0a3871;
+  border: #0a3871 solid 1px;
+  font-weight: bold;
 }
-.botao{
-    width: 290px;
-    font-size: 16px;
-    padding: 20px;
-    border-radius: 24px;
-    cursor: pointer;
-    font-weight: bold;
+.botao {
+  width: 300px;
+  margin-top: 10px;
+  font-size: 16px;
+  padding: 20px;
+  border-radius: 24px;
+  cursor: pointer;
+  font-weight: bold;
 }
-.cripto{
-    margin-top: 30px;
-    margin-left: 40px;
+.cripto {
+  margin-left: 40px;
 }
-.btn{
-    margin-top: 110px;
+.btn {
+  margin-top: 143px;
 }
-.container{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-column-gap: 5rem;
+
+.container-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 50%;
 }
+
 .mensagem {
-    background-color: white;
-    border-radius: 20px;
-    background-image: url("./image/image.png");
-    background-repeat: no-repeat;
-    background-size: 75%;
-    background-position: center;
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+  background-image: url("./image/image.png");
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-position: center;
 }
